@@ -15,14 +15,13 @@ library(tidyverse)
 # wtf-packages-report
 
 ## Overview
-What is the goal? jjhkhkk
 The goal of wtf-packages-report is to explore the packages in my R installation.
 
 ```{r, include = FALSE}
 freqtable_file <- fs::dir_ls(here::here("data"), glob = "*freqtable.csv")
 apt_freqtable <- readr::read_csv(freqtable_file)
 ```
-
+How many packages installed?
 I have `r sum(apt_freqtable$n)` add-on packages installed.
 
 Here's how they break down in terms of which version of R they were built under, which is related to how recently they were updated on CRAN.

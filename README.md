@@ -6,7 +6,7 @@ wtf-packages-report
 Overview
 --------
 
-The goal of wtf-packages-report is to explore the packages in my R installation.
+Which is the goal? The goal of wtf-packages-report is to explore the packages in my R installation.
 
 How many packages installed? I have 399 add-on packages installed.
 

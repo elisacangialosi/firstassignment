@@ -15,7 +15,9 @@ library(tidyverse)
 # wtf-packages-report
 
 ## Overview
+Which is the goal?
 The goal of wtf-packages-report is to explore the packages in my R installation.
+
 
 ```{r, include = FALSE}
 freqtable_file <- fs::dir_ls(here::here("data"), glob = "*freqtable.csv")

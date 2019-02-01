@@ -15,7 +15,7 @@ library(tidyverse)
 # wtf-packages-report
 
 ## Overview
-
+What is the goal?
 The goal of wtf-packages-report is to explore the packages in my R installation.
 
 ```{r, include = FALSE}
